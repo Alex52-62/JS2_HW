@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(206, 233, 250);
+    padding-top: 40px;
+}
+
+button {
+    background-color: lightsalmon;
+}
+
+.btn-cart {
+    display: flex;
+    opacity: 0.8;
+}
+
+.products {
+    display: grid;
+    width: 200px;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.product-item {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.fullContainer {
+    background-color: rgb(206, 233, 250);
+    padding-bottom: 40px;
+}
