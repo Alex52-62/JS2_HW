@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#form {
+    display: block;
+    width: 350px;
+    margin: 15px auto 0;
+}
+
+p {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    width: 400px;
+    background-color: rgb(243, 243, 18);
+    font-size: 17px;
+    display: block;
+    padding: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.checkbox-variant {
+    padding-top: 20px;
+}
+
+.radio-variant {
+    display: inline-block;
+    width: 47%;
+}
+
+.row {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.img {
+    padding-left: 50px;
+}
+
+.submit {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#message {
+    height: 28px
+}
+
+label {
+    cursor: pointer;
+}
