@@ -6,3 +6,5 @@ task1 in file basket
 task2 in directory project
 
 task3 in directory hamburger
+
+*****
